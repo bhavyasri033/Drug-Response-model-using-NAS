@@ -5,13 +5,6 @@ This repository presents the implementation of Neural Architecture Search (NAS) 
 
 To address this challenge, the project explores three NAS approaches—Random Search, Q-Learning, and Bayesian Optimization—to automatically identify optimal model architectures. Experimental results demonstrate that NAS-optimized models significantly outperform conventional deep learning methods, highlighting the role of automated architecture optimization in advancing personalized medicine.
 
-## Published Work
-- **Title:** Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction  
-- **Conference:** ICECMSN 2024  
-- **Publisher:** Science Direct  
-- **Sponsor:** Elsevier  
-- [Read Research Paper](https://www.sciencedirect.com/science/article/pii/S1877050924034513)
-
 ## Features
 - **Dataset:** PANCANCER_ANOVA from the Genomics of Drug Sensitivity in Cancer (GDSC) project  
 - **NAS Search Strategies:** Random Search, Q-Learning, Bayesian Optimization  
@@ -30,29 +23,35 @@ Sample data is included in the repository.
 
 ## Methodology
 
-### Data Preprocessing
+The project workflow involves the following key steps:
+<img width="447" height="787" alt="image" src="https://github.com/user-attachments/assets/3dfd71f5-7d58-4617-a1b2-9ae3b5a48259" />
+
+
+### 1. Data Preprocessing
 - Handling missing values  
 - Feature scaling and normalization  
 - Correlation analysis and feature selection  
 - Dataset splitting for training, validation, and testing  
+- Visualization: Missing Values Heatmap and Correlation Matrix  
 
-### Neural Network Architecture Design
+### 2. Neural Network Architecture Design
 - Defining the search space (layers, activations, dropout rates)  
 - Hyperparameter tuning (learning rate, batch size, optimizer selection)  
 
-### Neural Architecture Search Optimization
+### 3. Neural Architecture Search (NAS) Optimization
 - **Random Search:** Randomly selects architectures for evaluation  
 - **Q-Learning:** Uses reinforcement learning for guided architecture search  
 - **Bayesian Optimization:** Uses probabilistic models for efficient exploration  
 
-### Model Training and Evaluation
-- Metrics: MSE, MAE, R², RMSE  
+### 4. Model Training and Evaluation
+- Performance metrics: MSE, MAE, R², RMSE  
 - Cross-validation and early stopping  
 - Residual analysis for error interpretation  
 
-### Model Deployment
+### 5. Model Deployment
 - Flask API for drug response prediction  
 - Scalable and integrable into biomedical applications  
+  
 
 ## Results
 
@@ -90,23 +89,6 @@ Sample data is included in the repository.
 - ICECMSN 2024 Conference for accepting this research  
 - Science Direct for publication  
 - Genomics of Drug Sensitivity in Cancer (GDSC) for the dataset  
-
-## Citation
-```bibtex
-@article{G2025172,
-  author={Uday Kiran G and Srilakshmi V and Padmini G and Sreenidhi G and Venkata Ramana B and Preetham Reddy G J},
-  title={Neural Architecture Search-Driven Optimization of Deep Learning Models for Drug Response Prediction},
-  journal = {Procedia Computer Science},
-  volume = {252},
-  pages = {172-181},
-  year = {2025},
-  note = {4th International Conference on Evolutionary Computing and Mobile Sustainable Networks},
-  issn = {1877-0509},
-  doi = {https://doi.org/10.1016/j.procs.2024.12.019},
-  url = {https://www.sciencedirect.com/science/article/pii/S1877050924034513},
-  keywords = {Neural Architecture Search, Random Search, Q-Learning, Bayesian Optimization, Drug Response Prediction}
-}
-
 
 ## 🚀 Author
 Bhavyasri Chapalamadugu  
