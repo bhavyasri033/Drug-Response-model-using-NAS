@@ -73,6 +73,6 @@ The project workflow involves the following key steps:
   - Expanding datasets with diverse drug compounds  
   - Explainability techniques for better interpretability  
 
-## 🚀 Author
+##  Author
 Bhavyasri Chapalamadugu  
 [LinkedIn Profile](https://www.linkedin.com/in/bhavyasri-ch)
