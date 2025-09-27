@@ -73,23 +73,6 @@ The project workflow involves the following key steps:
   - Expanding datasets with diverse drug compounds  
   - Explainability techniques for better interpretability  
 
-## Installation & Usage
-
-### Prerequisites
-- Python 3.x  
-- TensorFlow / PyTorch  
-- Scikit-learn  
-
-### Setup
-1. Open Google Colab and load the notebook: [Open in Colab](#)  
-2. Alternatively, run the notebook locally from repository files.  
-3. Follow instructions to preprocess data, perform NAS optimization, and evaluate models.  
-
-## Acknowledgments
-- ICECMSN 2024 Conference for accepting this research  
-- Science Direct for publication  
-- Genomics of Drug Sensitivity in Cancer (GDSC) for the dataset  
-
 ## 🚀 Author
 Bhavyasri Chapalamadugu  
 [LinkedIn Profile](https://www.linkedin.com/in/bhavyasri-ch)
