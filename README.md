@@ -46,7 +46,9 @@ The project workflow involves the following key steps:
 ### 4. Model Training and Evaluation
 - Performance metrics: MSE, MAE, R², RMSE  
 - Cross-validation and early stopping  
-- Residual analysis for error interpretation  
+- Residual analysis for error interpretation
+- <img width="347" height="316" alt="image" src="https://github.com/user-attachments/assets/e7eff811-4d65-4670-a101-8cb87388e276" />
+
 
 ### 5. Model Deployment
 - Flask API for drug response prediction  
