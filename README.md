@@ -24,7 +24,7 @@ Sample data is included in the repository.
 ## Methodology
 
 The project workflow involves the following key steps:
-<img width="447" height="787" alt="image" src="https://github.com/user-attachments/assets/3dfd71f5-7d58-4617-a1b2-9ae3b5a48259" />
+<img width="400" height="787" alt="image" src="https://github.com/user-attachments/assets/3dfd71f5-7d58-4617-a1b2-9ae3b5a48259" />
 
 
 ### 1. Data Preprocessing
